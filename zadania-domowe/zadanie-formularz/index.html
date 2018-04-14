@@ -1,49 +1,61 @@
-<form action="https://formspree.io/adi.jobda@gmail.com" method="POST" autocomplete="on">
-    <fieldset>
+<!DOCTYPE html>
+<html lang="en">
 
-        <legend>Moje dane</legend>
-        <label for=“imie”>Imię: </label><br>
-        <input type="text" name="imie" id="imie"><br><br>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
 
-        <label for=“naz”>Nazwisko: </label><br>
-        <input type="text" name="nazwisko" id="naz"><br><br>
-    </fieldset>
-    <fieldset>
+<body>
+    <form action="https://formspree.io/adi.jobda@gmail.com" method="POST" autocomplete="on">
+        <fieldset>
 
-        <legend>Kontakt</legend>
-        <label for=“mail”>Adres email: </label><br>
-        <input type="email" name="adresmail"><br><br>
-        <label for="phone">Numer telefonu:</label><br>
-        <input type="text" name="numer" id="phone" maxlength="9"><br><br>
-    </fieldset>
-    <fieldset>
+            <legend>Moje dane</legend>
+            <label for=“imie”>Imię: </label><br>
+            <input type="text" name="imie" id="imie"><br><br>
 
-        <legend>Dodatkowe</legend>
-        <label for=“mia”>Miasto: </label><br>
-        <select name="miasto" id="mia">
+            <label for=“naz”>Nazwisko: </label><br>
+            <input type="text" name="nazwisko" id="naz"><br><br>
+        </fieldset>
+        <fieldset>
+
+            <legend>Kontakt</legend>
+            <label for=“mail”>Adres email: </label><br>
+            <input type="email" name="adresmail"><br><br>
+            <label for="phone">Numer telefonu:</label><br>
+            <input type="text" name="numer" id="phone" maxlength="9"><br><br>
+        </fieldset>
+        <fieldset>
+
+            <legend>Dodatkowe</legend>
+            <label for=“mia”>Miasto: </label><br>
+            <select name="miasto" id="mia">
                 <option value="Krakow" selected>Kraków</option>
                 <option value="Warszawa">Warszawa</option>
                 <option value="Gdansk">Gdansk</option>
             </select><br><br>
 
 
-        <label for="gender">Płeć:</label><br>
-        <label for="mez">Mężczyzna</label>
-        <input type="radio" name="plec" id="mez" value="Mezczyzna"><br>
-        <label for="kobieta">Kobieta</label>
-        <input type="radio" name="plec" id="kobieta" value="Kobieta"> <br><br>
+            <label for="gender">Płeć:</label><br>
+            <label for="mez">Mężczyzna</label>
+            <input type="radio" name="plec" id="mez" value="Mezczyzna"><br>
+            <label for="kobieta">Kobieta</label>
+            <input type="radio" name="plec" id="kobieta" value="Kobieta"> <br><br>
 
-        <label for="zgoda">Wyrażam zgodę na wykorzystanie danych osobowych:</label><br>
-        <label for="tak">Tak</label>
-        <input type="checkbox" name="zgoda-na-dane" id="tak" value="Tak" required><br><br>
+            <label for="zgoda">Wyrażam zgodę na wykorzystanie danych osobowych:</label><br>
+            <label for="tak">Tak</label>
+            <input type="checkbox" name="zgoda-na-dane" id="tak" value="Tak" required><br><br>
 
 
 
-        <label for=“wiadomosc”>Wiadomość: </label><br>
-        <textarea maxlength=“100” name="wiadomosc" id="wiadomosc"></textarea><br><br>
-    </fieldset>
-    <div class="button">
-        <input type="submit" value="Send">
-    </div>
+            <label for=“wiadomosc”>Wiadomość: </label><br>
+            <textarea maxlength=“100” name="wiadomosc" id="wiadomosc"></textarea><br><br>
+        </fieldset>
+        <div class="button">
+            <input type="submit" value="Send">
+        </div>
 
-</form>
+    </form>
+</body>
+
+</html>
