@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -21,6 +22,7 @@ nav > ul > a > li {
     transition: color 1s;
 
 }
+
 a > li:hover {
     color: #1ac056;
 }
@@ -44,7 +46,7 @@ a > li:hover {
     font-size: 50px;
     font-weight: 100;
     margin: auto;
-       font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -57,6 +59,7 @@ a > li:hover {
 #about {
     background-color: #f9fcfe;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #about > h2 {
@@ -70,6 +73,7 @@ span {
     color: #1ac056;
 
 }
+
 #about > img {
     width: 30vw;
     border-radius: 10%;
@@ -77,22 +81,35 @@ span {
     margin-right: 10vw;
     float: left;
 }
+
 #about p {
     font-size: 14px;
     text-align: justify;
     margin-right: 15px;
 }
+
 #skill {
     padding-top: 20px;
     text-align: center;
-    
+
 }
+
 #skill > h2 {
     font-weight: lighter;
     margin-top: 0;
     margin-bottom: 40px;
 }
+
 #skill > p {
     margin-left: 7vw;
     margin-right: 7vw;
+}
+#skill>div {
+    width:12vw;
+    height: 12vw;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 20px;
+    text-align: center;
 }
