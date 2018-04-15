@@ -1,10 +1,15 @@
-body {
-  margin: 0;
-font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
 }
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
 nav {
     float: right;
 }
+
 nav > ul > a > li {
     display: inline-block;
     height: 20px;
@@ -13,35 +18,81 @@ nav > ul > a > li {
     margin-right: 20px;
     color: white;
     font-size: 15px;
-    
+    transition: color 1s;
+
 }
+a > li:hover {
+    color: #1ac056;
+}
+
 #main-header {
     width: 100%;
     height: 500px;
-     background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/header-background.jpg");
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/header-background.jpg");
     background-size: cover;
 }
+
 #header-content {
-    color:white;
+    color: white;
     position: relative;
     top: 40%;
 }
-.center {
-    margin: auto;
-    width: 90%;
-    text-align: center;
-    padding: 10px;
-}
+
 #header-content h1 {
-    position: relative;
-    left: 23%;
+    width: 100%;
+    text-align: center;
     font-size: 50px;
     font-weight: 100;
+    margin: auto;
+       font-family: 'Roboto', sans-serif;
 }
-#header-content h1 span{
-    color:#1ac056;
-}
+
+
 #header-content > p {
     font-size: 20px;
     font-weight: 100;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9fcfe;
+    padding-top: 20px;
+}
+
+#about > h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #1ac056;
+
+}
+#about > img {
+    width: 30vw;
+    border-radius: 10%;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    float: left;
+}
+#about p {
+    font-size: 14px;
+    text-align: justify;
+    margin-right: 15px;
+}
+#skill {
+    padding-top: 20px;
+    text-align: center;
+    
+}
+#skill > h2 {
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+#skill > p {
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
