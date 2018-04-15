@@ -239,3 +239,42 @@ button:hover {
     background-color: green;
     border-color: #1ac056;
 }
+
+#ikony {
+    width: 45%;
+    height: 50px;
+    position: relative;
+    top: 290px;
+    left: 15px;
+    font-size: 45px;
+}
+
+.fab {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube {
+    color: #d8d8d8;
+    transition: all 2s ease-in-out;
+}
+
+.fa-facebook-f:hover {
+    color: darkblue;
+    transform: rotate(30deg);
+}
+
+.fa-instagram:hover {
+    color: darkorchid;
+    transform: rotate(30deg);
+}
+
+.fa-youtube:hover {
+    color: crimson;
+    transform: rotate(30deg);
+}
