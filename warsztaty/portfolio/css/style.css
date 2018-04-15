@@ -203,7 +203,18 @@ address > a {
     color: #1ac056;
 }
 
-input {
+input, textarea {
     display: block;
     margin-bottom: 15px;
+    width: 95%;
+    height: 30px;
+    background-color: #205c8c; 
+    color: white;
+    border: 0px solid;
+}
+textarea {
+    height: 120px
+}
+button {
+    background-color: #1ac056;
 }

@@ -87,9 +87,11 @@
         </div>
         <div id="form">
             <form action="https://formspree.io/your@email.com" method="POST" id="kontform">
-                <input type="text" name="imie_nazwisko" value="Imię i Nazwisko">
-                <input type="email" name="email" value="Adres E-Mail" required="yes">
-                <input type="shorttext" name="wiadomosc" value="Napisz wiadomość..." required="yes">
+                <input type="text" name="imie_nazwisko" placeholder="Imię i Nazwisko">
+                <input type="email" name="email" placeholder="Adres E-Mail" required="yes">
+                
+                <textarea name="wiadomosc" maxlength="150" placeholder="Napisz wiadomość..." required="yes"></textarea>
+                
                 <button type="submit" form="kontform" value="Submit">Wyślij</button>
 
             </form>
