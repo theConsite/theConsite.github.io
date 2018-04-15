@@ -60,6 +60,9 @@ a > li:hover {
     background-color: #f9fcfe;
     padding-top: 20px;
     padding-bottom: 20px;
+    -webkit-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
 }
 
 #about > h2 {
@@ -203,18 +206,21 @@ address > a {
     color: #1ac056;
 }
 
-input, textarea {
+input,
+textarea {
     display: block;
     margin-bottom: 15px;
     width: 95%;
     height: 30px;
-    background-color: #205c8c; 
+    background-color: #205c8c;
     color: white;
     border: 0px solid;
 }
+
 textarea {
     height: 120px
 }
+
 button {
     background-color: #1ac056;
     color: white;
@@ -226,6 +232,7 @@ button {
     border-radius: 25px;
     transition: all 3s ease-in-out;
 }
+
 button:hover {
     border-radius: 0px;
     cursor: pointer;
