@@ -38,11 +38,11 @@ a > li:hover {
     color: white;
     position: relative;
     top: 40%;
+    text-align: center;
 }
 
 #header-content h1 {
     width: 100%;
-    text-align: center;
     font-size: 50px;
     font-weight: 100;
     margin: auto;
@@ -53,10 +53,10 @@ a > li:hover {
 #header-content > p {
     font-size: 20px;
     font-weight: 100;
-    text-align: center;
 }
 
 #about {
+    height: 354px;
     background-color: #f9fcfe;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -75,21 +75,22 @@ span {
 }
 
 #about > img {
-    width: 30vw;
+    width: 240px;
     border-radius: 10%;
-    margin-left: 5vw;
-    margin-right: 10vw;
+    margin-left: 40px;
+    margin-right: 80px;
     float: left;
 }
 
 #about p {
-    font-size: 14px;
+    font-size: 13px;
     text-align: justify;
     margin-right: 15px;
 }
 
 #skill {
     padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
 
 }
@@ -104,12 +105,38 @@ span {
     margin-left: 7vw;
     margin-right: 7vw;
 }
-#skill>div {
-    width:12vw;
+
+#skill > div {
+    width: 12vw;
     height: 12vw;
     display: inline-block;
     margin-left: 3vw;
     margin-right: 3vw;
     margin-top: 20px;
     text-align: center;
+}
+#portfolio {
+    padding-top: 30px;;
+}
+#portfolio h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+#anim1 {
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio1.jpg;")
+}
+#anim2 {
+   background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio2.jpg;"; 
+}
+#anim3 {
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio4.jpg;"
+}
+.anim {
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
 }
