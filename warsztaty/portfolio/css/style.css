@@ -217,4 +217,18 @@ textarea {
 }
 button {
     background-color: #1ac056;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border: 4px solid green;
+    border-radius: 25px;
+    transition: all 3s ease-in-out;
+}
+button:hover {
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: green;
+    border-color: #1ac056;
 }
