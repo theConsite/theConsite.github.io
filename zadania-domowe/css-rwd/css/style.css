@@ -1,0 +1,73 @@
+* {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-size: cover;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 20px
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (min-width:1170px) {
+    header#main-header {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("/theConsite.github.io/zadania-domowe/css-rwd/img/man-1.jpg");
+        color: white;
+    }
+    h1,
+    p {
+        position: relative;
+        top: 30vh;
+        left: 5vw;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 50px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1170px) {
+    header#main-header {
+        width: 100vw;
+        height: 60vh;
+        background-image: url("/theConsite.github.io/zadania-domowe/css-rwd/img/man-2.jpg");
+        color: white;
+    }
+    h1,
+    p {
+        position: relative;
+        top: 15vh;
+        left: 55vw;
+        ;
+    }
+}
+
+@media (max-width:992px) {
+    header#main-header {
+        background-image: url("/theConsite.github.io/zadania-domowe/css-rwd/img/man-1.jpg");
+        width: 100vw;
+        height: 50vh;
+        text-align: center;
+    }
+    h1,
+    p {
+        position: relative;
+        top: 100%
+    }
+}
