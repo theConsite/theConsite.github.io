@@ -315,6 +315,7 @@ textarea {
     background-color: #205c8c;
     color: white;
     border: 0px solid;
+    resize: none;
 }
 
 textarea {
