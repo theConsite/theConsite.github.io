@@ -382,3 +382,7 @@ button:hover {
     color: crimson;
     transform: rotate(30deg);
 }
+
+footer {
+    background-color: #213b50; 
+}
