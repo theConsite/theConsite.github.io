@@ -224,6 +224,11 @@ span {
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10%;
 }
+.fas {
+    font-size:5vw;
+    width: 5vw;
+    height: 5vw;
+}
 
 .hid:hover {
     color: white;
