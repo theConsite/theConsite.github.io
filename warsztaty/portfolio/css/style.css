@@ -224,6 +224,13 @@ span {
     border: 1px solid white;
     border-radius: 10%;
 }
+a[href="#"] {
+    color:white;
+    transition: all 1s linear;
+}
+a[href="#"]:hover {
+    color: #1ac056;
+}
 
 .fas {
     font-size: 4vw;
