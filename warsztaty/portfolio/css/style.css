@@ -301,7 +301,7 @@ a[href="#"]:hover {
     right: 15px;
 }
 
-address > a {
+address a {
     text-decoration: none;
     color: #1ac056;
 }
