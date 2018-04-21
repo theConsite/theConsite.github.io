@@ -225,9 +225,9 @@ span {
     border-radius: 10%;
 }
 .fas {
-    font-size:5vw;
-    width: 5vw;
-    height: 5vw;
+    font-size:4vw;
+    width:4vw;
+    height: 4vw;
 }
 
 .hid:hover {
@@ -323,7 +323,7 @@ button:hover {
 }
 
 .fa-facebook-f:hover {
-    color: darkblue;
+    color: dodgerblue;
     transform: rotate(30deg);
 }
 
