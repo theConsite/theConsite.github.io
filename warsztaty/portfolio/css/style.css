@@ -37,12 +37,12 @@ a > li:hover {
 #header-content {
     color: white;
     position: relative;
-    top: 40%;
+    top: 35%;
     text-align: center;
 }
 
 #header-content h1 {
-    width: 100%;
+    width: 310px;
     font-size: 50px;
     font-weight: 100;
     margin: auto;
@@ -261,7 +261,7 @@ button:hover {
 .fa-instagram,
 .fa-youtube {
     color: #d8d8d8;
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .fa-facebook-f:hover {
