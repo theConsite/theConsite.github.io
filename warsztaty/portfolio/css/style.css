@@ -29,22 +29,29 @@
         float: left;
     }
     #skill > div {
-    width: 12vw;
-    height: 12vw;
-    display: inline-block;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 20px;
-    text-align: center;
-}
-    
-.anim {
-    display: inline-block;
-    position: relative;
-    width: 25vw;
-    height: 25vw;
-    background-size: cover;
-}
+        width: 12vw;
+        height: 12vw;
+        display: inline-block;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .fab {
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .anim {
+        display: inline-block;
+        position: relative;
+        width: 25vw;
+        height: 25vw;
+        background-size: cover;
+    }
 }
 
 @media (max-width:784px) {
@@ -66,6 +73,7 @@
         font-size: 12px;
         text-align: justify;
         margin-right: 5px;
+        overflow: hidden;
     }
 
     #about img {
@@ -75,26 +83,34 @@
         left: 25%;
     }
     #skill > div {
-    width: 42vw;
-    height: 12vw;
-    display: inline-block;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 20px;
-    text-align: center;
-}
-    
-.anim {
-    display: inline-block;
-    position: relative;
-    width: 37vw;
-    height: 25vw;
-    background-size: cover;
-}
-    #anim3{
+        width: 42vw;
+        height: 12vw;
+        display: inline-block;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .anim {
+        display: inline-block;
+        position: relative;
+        width: 37vw;
+        height: 25vw;
+        background-size: cover;
+    }
+    #anim3 {
         display: block;
         position: relative;
         width: 74vw;
+    }
+    .fab {
+        font-size: 35px;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -383,13 +399,7 @@ button:hover {
     font-size: 45px;
 }
 
-.fab {
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .fa-facebook-f,
 .fa-instagram,
