@@ -200,12 +200,13 @@ span {
     width: 100%;
     height: 100%;
     padding: 1vw;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 2s;
+    opacity: 0;
+    background-color: rgba(33, 59, 80, 0.8);
+    transition: all 1s ease-in-out;
 }
 
 .hidpad:hover {
-    background-color: rgba(33, 59, 80, 0.8);
+    opacity: 1;
 }
 
 .hid > h4 {
@@ -219,20 +220,15 @@ span {
     text-align: center;
     overflow: hidden;
     font-size: 2vw;
-    color: rgba(0, 0, 0, 0);
-    transition: all 2s;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 10%;
-}
-.fas {
-    font-size:4vw;
-    width:4vw;
-    height: 4vw;
-}
-
-.hid:hover {
     color: white;
     border: 1px solid white;
+    border-radius: 10%;
+}
+
+.fas {
+    font-size: 4vw;
+    width: 4vw;
+    height: 4vw;
 }
 
 #contact {
