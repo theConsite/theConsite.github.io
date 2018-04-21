@@ -1,3 +1,5 @@
+/*Responsywność o mnie*/
+
 @media (min-width:785px) {
     #about-content {
         width: 781px;
@@ -58,6 +60,8 @@
     }
 }
 
+/*Ogólne*/
+
 * {
     box-sizing: border-box;
 }
@@ -66,6 +70,8 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+/*Menu naigacyjne*/
 
 nav {
     float: right;
@@ -86,6 +92,10 @@ nav > ul > a > li {
 a > li:hover {
     color: #1ac056;
 }
+
+/*Koniec menu nawigacyjnego*/
+
+/*Header*/
 
 #main-header {
     width: 100%;
@@ -115,7 +125,9 @@ a > li:hover {
     font-weight: 100;
 }
 
+/*Koniec headera*/
 
+/*O mnie*/
 
 #about > h2 {
     text-align: center;
@@ -124,11 +136,18 @@ a > li:hover {
     margin-bottom: 40px;
 }
 
+/*Koniec o mnie*/
+
+/*Span*/
+
 span {
     color: #1ac056;
 
 }
 
+/*Koniec spana*/
+
+/*Umiejętności*/
 
 #skill {
     padding-top: 20px;
@@ -158,6 +177,10 @@ span {
     text-align: center;
 }
 
+/*Koniec umiejętności*/
+
+/*Portfolio*/
+
 #portfolio {
     padding-top: 30px;
     font-size: 0;
@@ -171,6 +194,8 @@ span {
     margin-top: 0;
     margin-bottom: 40px;
 }
+
+/*Galeria portfolio*/
 
 #anim1 {
     background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio1.jpg");
@@ -240,6 +265,12 @@ a[href="#"]:hover {
     height: 4vw;
 }
 
+/*Koniec galerii portfolio*/
+
+/*Koniec portfolio*/
+
+/*Kontakt*/
+
 #contact {
     color: white;
     background-color: #213b50;
@@ -248,6 +279,8 @@ a[href="#"]:hover {
     position: relative;
 }
 
+/*Strefa adresowa*/
+
 #adres {
     position: absolute;
     top: 20px;
@@ -255,6 +288,10 @@ a[href="#"]:hover {
     width: 45%;
     height: 250px;
 }
+
+/*Koniec strefy adresowej*/
+
+/*Formularz kontakt*/
 
 #form {
     position: absolute;
@@ -302,6 +339,10 @@ button:hover {
     background-color: green;
     border-color: #1ac056;
 }
+
+/*Koniect formularza*/
+
+/*Ikony*/
 
 #ikony {
     width: 45%;
