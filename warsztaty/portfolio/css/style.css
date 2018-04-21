@@ -330,7 +330,7 @@ button {
     height: 50px;
     border: 4px solid green;
     border-radius: 25px;
-    transition: all 3s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
 button:hover {
