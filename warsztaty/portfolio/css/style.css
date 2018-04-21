@@ -290,6 +290,10 @@ a[href="#"]:hover {
     height: 250px;
 }
 
+#tel3f0n {
+    margin-top: 50px;
+}
+
 /*Koniec strefy adresowej*/
 
 /*Formularz kontakt*/
@@ -393,8 +397,4 @@ footer {
     text-align: center;
     font-size: 16px;
 
-}
-
-#tel3f0n {
-    margin-top: 50px;
 }
