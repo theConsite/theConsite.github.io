@@ -187,11 +187,12 @@ span {
 .anim {
     display: inline-block;
     position: relative;
-    width: 20vw;
+    width: 25vw;
     height: 25vw;
     background-size: cover;
-    margin-left: 1vw;
-    margin-right: 1vw;
+}
+#port {
+    margin-left: 12vw;
 }
 
 .anim > .hid {
@@ -211,10 +212,6 @@ span {
 .hid:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-#port {
-    margin-left: 17vw;
 }
 
 #contact {
