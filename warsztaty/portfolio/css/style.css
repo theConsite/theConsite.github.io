@@ -282,6 +282,7 @@ a[href="#"]:hover {
 /*Strefa adresowa*/
 
 #adres {
+    font-style: normal;
     position: absolute;
     top: 20px;
     left: 15px;
