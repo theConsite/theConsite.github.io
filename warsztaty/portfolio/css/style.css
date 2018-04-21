@@ -1,3 +1,16 @@
+@media (min-width:785px) {
+    #about-content {
+    width: 781px;
+    position: relative;
+    margin: 0 auto;
+}   
+}
+@media (max-width:784px) {
+    #about-content {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    } }
 * {
     box-sizing: border-box;
 }
@@ -75,12 +88,6 @@ a > li:hover {
 span {
     color: #1ac056;
 
-}
-
-#about-content {
-    width: 781px;
-    position: relative;
-    margin: 0 auto;
 }
 
 #about img {
