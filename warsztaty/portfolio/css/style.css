@@ -1,16 +1,63 @@
 @media (min-width:785px) {
     #about-content {
-    width: 781px;
-    position: relative;
-    margin: 0 auto;
-}   
+        width: 781px;
+        position: relative;
+        margin: 0 auto;
+    }
+    #about {
+        height: 394px;
+        background-color: #f9fcfe;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+    }
+    #about p {
+        font-size: 13px;
+        text-align: justify;
+        margin-right: 15px;
+    }
+
+    #about img {
+        width: 240px;
+        border-radius: 10%;
+        margin-left: 40px;
+        margin-right: 80px;
+        float: left;
+    }
 }
+
 @media (max-width:784px) {
+    #about {
+        height: 320px;
+        background-color: #f9fcfe;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+    }
     #about-content {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    } }
+        width: 580px;
+        position: relative;
+        margin: 0 auto;
+    }
+    #about p {
+        font-size: 10px;
+        text-align: justify;
+        margin-right: 5px;
+    }
+
+    #about img {
+        width: 180px;
+        border-radius: 10%;
+        margin-left: 40px;
+        margin-right: 40px;
+        float: left;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -68,15 +115,7 @@ a > li:hover {
     font-weight: 100;
 }
 
-#about {
-    height: 394px;
-    background-color: #f9fcfe;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-}
+
 
 #about > h2 {
     text-align: center;
@@ -90,19 +129,6 @@ span {
 
 }
 
-#about img {
-    width: 240px;
-    border-radius: 10%;
-    margin-left: 40px;
-    margin-right: 80px;
-    float: left;
-}
-
-#about p {
-    font-size: 13px;
-    text-align: justify;
-    margin-right: 15px;
-}
 
 #skill {
     padding-top: 20px;
