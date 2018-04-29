@@ -1,13 +1,19 @@
 'use strict';
 $(function(){
+    var slideShow= $('#allSliders');
+    var slideCount= $('.sliders').length;
+    var slideWidth= 100/slideCount;
+    var slideIndex = 0;
     
+  slideShow.css('width', 100 * slideCount + '%');
     
-    $(".fa-arrow-right").click(function(){
-        $('#allSliders').animate({left:'-100vw'}, 2000)
+    slideShow.find('.sliders').each(function(i){
+        $(this).css({
+            width: slideWidth + '%',
+            'margin-left':slideWidth * i + '%',
+        });
     });
     
-      $(".fa-arrow-left").click(function(){
-        $('#allSliders').animate({left:'100vw'}, 2000)
-    });
+    
     
 });
