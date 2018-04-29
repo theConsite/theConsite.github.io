@@ -9,10 +9,21 @@
 </head>
 
 <body>
-    <header id="main-header" class="header">
-        <h1>I am the best</h1>
-        <p>Front end developer</p>
-    </header>
+    <script>
+        var exTab = [12, 67, 34, 23.01, 24, 2, 56, 8, 0x10, 23.02, 78, 34, 1e2, 45, 67, 98, 1];
+        console.log("Przed sortowaniem:")
+        console.log(exTab)
+        for (var i = 0; i < exTab.length; i++) {
+            for (var j = 0; j < exTab.length - 1; j++) {
+                if (exTab[j] > exTab[j + 1]) {
+                    var temp = exTab[j];
+                    exTab[j] = exTab[j + 1]
+                    exTab[j + 1] = temp
+                }
+            }
+        }
+        console.log(exTab)
+    </script>
 </body>
 
 </html>
