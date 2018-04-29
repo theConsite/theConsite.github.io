@@ -1,1 +1,60 @@
-/*start*/
+body {
+    margin: 0;
+    overflow-y: hidden;
+    font-family: 'Hind', sans-serif;
+}
+
+.text {
+    display: block;
+    position: relative;
+    top: 40%;
+}
+
+.fas {
+    position: fixed;
+    font-size: 7vw;
+    color: white;
+    top: 45vh;
+    width: 7vw;
+    height: 7vw;
+}
+.fa-arrow-left{
+    left: 2vw
+}
+.fa-arrow-right{
+   left: 90vw 
+}
+
+#allSliders {
+    width: 400vw;
+    height: 100vh;
+    font-size: 0;
+    position: relative;
+}
+
+.sliders {
+    display: inline-block;
+    width: 100vw;
+    height: 100%;
+    font-size: 20px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+#slide3 {
+    background-image: url(../img/blue.jpg)
+}
+
+#slide4 {
+    background-image: url(../img/purple.jpg)
+}
+
+#slide1 {
+    background-image: url(../img/slide1.jpg)
+}
+
+#slide2 {
+    background-image: url(../img/slide2.jpg)
+}
