@@ -1,0 +1,52 @@
+@keyframes przyklad {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes przyklad2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+body {
+    background-color: #aaa;
+}
+#main-container{
+    position: relative;
+    margin: 0 auto;
+    top: 50vh;
+    transform: translateY(-115px);
+    width: 265px;
+    height: 230px;
+}
+.gears {
+    background-image: url(https://www.freeiconspng.com/uploads/gear-png-8.png);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    position: absolute;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#gear1 {
+    transform: rotate(0deg);
+    animation-name: przyklad;
+}
+
+#gear2 {
+    top: 89px;
+    left: 100px;
+    ;
+    transform: rotate(0deg);
+    animation-name: przyklad2;
+}
