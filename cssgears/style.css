@@ -18,6 +18,7 @@
 
 body {
     background-color: #aaa;
+    overflow: hidden;
 }
 #main-container{
     position: relative;
