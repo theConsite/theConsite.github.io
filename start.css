@@ -1,0 +1,28 @@
+body{
+    background-color: #283b5e;
+    color: white;
+    overflow: hidden;
+}
+header{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+iframe{
+    width: 100%;
+    height: 100%
+}
+.sites{
+   position: relative;
+    margin: 0 auto;
+}
+.frame{
+    display: inline-block;
+}
+#frame1, #frame2{
+    height: 40vh;
+    width: 98vw;
+    margin-bottom: 1vh;
+}
+#frame2{
+    overflow: hidden;
+}
