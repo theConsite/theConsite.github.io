@@ -1,19 +1,71 @@
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Lato', italic;*/
+body{
+    overflow-x: hidden;
+}
 /*Nawigacja*/
-.navbar-brand{
+.navbar-brand, #pheader{
     font-family: 'Lato', italic;
+    font-weight: lighter;
+    font-style: italic;
 }
 .nav-link{
   font-family: 'Montserrat', sans-serif;  
 }
 /*Koniec nawigacji*/
 /*Header*/
+#header-inner{
+  background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
 #header{
-    width: 100vw;
+    font-size: 50px;
+    width: 99vw;
     height: 100vh;
     background-image: url("/theConsite.github.io/workshopnumeroduo/bootstrapwork/img/header/pictures_on_the_wall.jpg");
     background-size: cover;
     color: white
 }
+#pheader{
+    font-family: 'Lato', italic;
+    
+}
+h1{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+#button{
+    position: relative;
+    width: 130px;
+    margin: 0 auto;
+}
+#header-content{
+    position:relative;
+    top: 45vh
+}
+/*/header*/
+
+
+section{
+    width: 100vw;
+    height:100vh; 
+}
+#uslugi{
+    position: relative;
+    top: 20vh;
+    font-size: 4vw;
+}
+#uslugi>h2{
+    font-size:6vw;
+}
+#uslugi-opis{
+    height: 50%;
+    position: relative;
+    top: 35%;
+    background-color: aquamarine
+        
+}
+
+
+
