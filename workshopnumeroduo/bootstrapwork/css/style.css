@@ -1,0 +1,19 @@
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', italic;*/
+/*Nawigacja*/
+.navbar-brand{
+    font-family: 'Lato', italic;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;  
+}
+/*Koniec nawigacji*/
+/*Header*/
+#header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/theConsite.github.io/workshopnumeroduo/bootstrapwork/img/header/pictures_on_the_wall.jpg");
+    background-size: cover;
+    color: white
+}
