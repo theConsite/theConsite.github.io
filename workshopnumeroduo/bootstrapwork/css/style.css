@@ -66,6 +66,23 @@ section{
 #uslugi-opis p {
     font-size: 12px
 }
+.icon{
+    margin-bottom: 10px;
+}
 
 
-
+.cir{
+    position: relative;
+    width: 20vh;
+    height: 20vh;
+    background-color: #222;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+.fas{
+  color: white; 
+    font-size: 12vh;
+    position: relative;
+    top: 3vh;
+}
