@@ -10,6 +10,16 @@ body{
     font-weight: lighter;
     font-style: italic;
 }
+nav#main-nav a.navbar-brand {
+    color: #fff;
+    font-weight: 500;
+}
+
+
+nav#main-nav a.nav-link {
+    color: #fff;
+    font-weight: 500;
+}
 .nav-link{
   font-family: 'Montserrat', sans-serif;  
 }
