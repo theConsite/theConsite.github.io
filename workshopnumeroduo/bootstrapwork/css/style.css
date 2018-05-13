@@ -32,6 +32,10 @@ button,
     font-weight: bold;
 }
 
+button {
+    cursor: pointer;
+}
+
 #pheader,
 .navbar-brand,
 h2 + p {
@@ -141,6 +145,7 @@ section {
     position: relative;
     top: 3vh;
     transition: 2s linear;
+    cursor: pointer;
 }
 
 .cir > .fas:hover {
@@ -211,4 +216,74 @@ h6 + p {
     height: 80px;
     position: relative;
     top: 40px;
+    cursor: pointer
+}
+
+/*Team*/
+
+#team {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+#team-text {
+    padding-bottom: 10vh;
+}
+
+#crew1 {
+    background-image: url(/theConsite.github.io/workshopnumeroduo/bootstrapwork/img/team/man-1.jpg)
+}
+
+#crew2 {
+    background-image: url(/theConsite.github.io/workshopnumeroduo/bootstrapwork/img/team/woman-1.jpg)
+}
+
+#crew3 {
+    background-image: url(/theConsite.github.io/workshopnumeroduo/bootstrapwork/img/team/man-2.jpg)
+}
+
+.stuff {
+    width: 22vw;
+    height: 22vw;
+    position: relative;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.crew-info {
+    text-align: center;
+    padding-top: 3vh
+}
+
+.fab {
+    color: white;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    width: 6vw;
+    height: 6vw;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 1vw;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.fab:hover {
+    color: #0ed8d6;
+    background-color: white;
+    transform: rotate(360deg)
+}
+
+.icons {
+    text-align: center;
+    padding-bottom: 5vh
+}
+
+#team-text-2nd {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    font-size: 14px;
 }
