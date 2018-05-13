@@ -4,6 +4,8 @@ font-family: 'Lato', italic;*/
 
 body {
     overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+    font-weight: light;
 }
 
 .fas {
@@ -12,17 +14,34 @@ body {
 
 h2 {
     text-transform: uppercase;
+}
+
+h6 {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-/*Nawigacja*/
-
+#pheader,
 .navbar-brand,
-#pheader {
+h2 + p {
     font-family: 'Lato', italic;
     font-weight: lighter;
     font-style: italic;
+
 }
+
+/*Nawigacja*/
 
 nav#main-nav a.navbar-brand {
     color: #fff;
@@ -35,9 +54,6 @@ nav#main-nav a.nav-link {
     font-weight: 500;
 }
 
-.nav-link {
-    font-family: 'Montserrat', sans-serif;
-}
 
 /*Koniec nawigacji*/
 
@@ -55,11 +71,6 @@ nav#main-nav a.nav-link {
     background-image: url("/theConsite.github.io/workshopnumeroduo/bootstrapwork/img/header/pictures_on_the_wall.jpg");
     background-size: cover;
     color: white
-}
-
-#pheader {
-    font-family: 'Lato', italic;
-
 }
 
 h1 {
@@ -170,6 +181,10 @@ section {
     position: relative;
     transform: scale(1);
     transition: 1s ease-in-out;
+}
+
+h6 + p {
+    font-size: 14px;
 }
 
 .port-grid-img:hover {
