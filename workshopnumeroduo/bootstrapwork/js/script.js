@@ -6,4 +6,17 @@ $(function(){
         alert('Dziękujemy za wysłanie formularza!');
     });
     
+    $(window).on('scroll', function(){
+    
+    var wysokoscOkna = window.innerHeight;
+    var scroll = document.documentElement.scrollTop;
+   if (scroll >= wysokoscOkna-50){
+       $('#main-nav').removeClass('navbarunscrolled')
+       $('#main-nav').addClass('navbarscrolled')
+   }
+        else{
+             $('#main-nav').removeClass('navbarscrolled')
+       $('#main-nav').addClass('navbarunscrolled')
+        };
+    });
 });

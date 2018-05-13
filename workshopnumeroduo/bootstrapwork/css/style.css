@@ -2,6 +2,11 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Lato', italic;*/
 
+@keyframes beztla {
+    from {background-color: rgba(14,215,217,0.7);}
+    to {background-color: rgba(14,215,217,0);}
+}
+
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
@@ -381,4 +386,15 @@ footer > .container {
     width: 5vh;
     margin-top: -10vh;
     height: 5vh;
+}
+.navbarscrolled {
+background-color: rgba(14,215,217,0.7);
+-webkit-transition:background 0.5s;
+-moz-transition:background 0.5s;
+-o-transition:background 0.5s;
+transition:background 0.5s
+}
+.navbarunscrolled{
+    animation-name: beztla;
+    animation-duration: 0.5s;
 }
