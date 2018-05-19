@@ -1,0 +1,304 @@
+/*Ogólne*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-nav{
+    background-color: rgba(255,255,255, 0.5);
+}
+/*Header*/
+
+#main-header {
+    width: 100%;
+    height: 500px;
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/header-background.jpg");
+    background-size: cover;
+}
+
+#header-content {
+    color: white;
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+
+#header-content h1 {
+    width: 310px;
+    font-size: 50px;
+    font-weight: 100;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#header-content > p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*Koniec headera*/
+
+/*O mnie*/
+
+#about > h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#about img{
+    width: 100%;
+}
+#about p{
+    font-size: 1.3vw;
+    text-align: right;
+}
+
+/*Koniec o mnie*/
+
+/*Span*/
+
+span {
+    color: #1ac056;
+
+}
+
+/*Koniec spana*/
+
+/*Umiejętności*/
+
+#skill {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+#skill > h2 {
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#skill > p {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+
+
+/*Koniec umiejętności*/
+
+/*Portfolio*/
+
+#portfolio {
+    padding-top: 30px;
+    font-size: 0;
+    padding-bottom: 30px;
+}
+
+#portfolio h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/*Galeria portfolio*/
+
+#anim1 {
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio1.jpg");
+}
+
+#anim2 {
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio2.jpg");
+}
+
+#anim3 {
+    background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio4.jpg");
+}
+
+
+#port {
+    margin-left: 12vw;
+}
+
+.hidpad {
+    width: 100%;
+    height: 100%;
+    padding: 1vw;
+    opacity: 0;
+    background-color: rgba(33, 59, 80, 0.8);
+    transition: all 1s ease-in-out;
+}
+
+.hidpad:hover {
+    opacity: 1;
+}
+
+.hid > h4 {
+    font-size: 100%
+}
+
+.anim .hid {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1vw;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2vw;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+a[href="#"] {
+    color: white;
+    transition: all 1s linear;
+}
+
+a[href="#"]:hover {
+    color: #1ac056;
+}
+
+.fas {
+    font-size: 4vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+/*Koniec galerii portfolio*/
+
+/*Koniec portfolio*/
+
+/*Kontakt*/
+
+#contact {
+    color: white;
+    background-color: #213b50;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+/*Strefa adresowa*/
+
+#adres {
+    font-style: normal;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 45%;
+    height: 250px;
+}
+
+#tel3f0n {
+    margin-top: 50px;
+}
+
+/*Koniec strefy adresowej*/
+
+/*Formularz kontakt*/
+
+#form {
+    margin-top: 30px;
+    position: absolute;
+    width: 45%;
+    height: 350px;
+    top: 20px;
+    right: 15px;
+}
+
+address a {
+    text-decoration: none;
+    color: #1ac056;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 95%;
+    height: 30px;
+    background-color: #294b66;
+    color: white;
+    border: 0px solid;
+    resize: none;
+}
+
+textarea {
+    height: 120px
+}
+
+button {
+    background-color: #1ac056;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border: 4px solid green;
+    border-radius: 25px;
+    transition: all 2s ease-in-out;
+}
+
+button:hover {
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: green;
+    border-color: #1ac056;
+}
+
+/*Koniec formularza*/
+
+/*Ikony*/
+
+#ikony {
+    width: 45%;
+    height: 50px;
+    position: relative;
+    top: 290px;
+    left: 15px;
+    font-size: 45px;
+}
+
+
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube {
+    color: #d8d8d8;
+    transition: all 1s ease-in-out;
+}
+
+.fa-facebook-f:hover {
+    color: dodgerblue;
+    transform: rotate(30deg);
+}
+
+.fa-instagram:hover {
+    color: darkorchid;
+    transform: rotate(30deg);
+}
+
+.fa-youtube:hover {
+    color: crimson;
+    transform: rotate(30deg);
+}
+
+footer {
+    background-color: #182b3a;
+    color: white;
+    height: 23px;
+    text-align: center;
+    font-size: 16px;
+
+}
