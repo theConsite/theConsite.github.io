@@ -9,30 +9,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/*Menu naigacyjne*/
-
-nav {
-    float: right;
+#main-nav{
+    background-color: rgba(255,255,255, 0.5);
 }
-
-nav > ul > a > li {
-    display: inline-block;
-    height: 20px;
-    width: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: white;
-    font-size: 15px;
-    transition: color 1s;
-
-}
-
-a > li:hover {
-    color: #1ac056;
-}
-
-/*Koniec menu nawigacyjnego*/
-
 /*Header*/
 
 #main-header {
@@ -70,8 +49,16 @@ a > li:hover {
 #about > h2 {
     text-align: center;
     font-weight: lighter;
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#about img{
+    width: 100%;
+}
+#about p{
+    font-size: 1.3vw;
+    text-align: right;
 }
 
 /*Koniec o mnie*/
