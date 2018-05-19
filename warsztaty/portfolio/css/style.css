@@ -9,9 +9,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#main-nav{
-    background-color: rgba(255,255,255, 0.5);
+#main-nav {
+    background-color: rgba(255, 255, 255, 0.5);
 }
+
 /*Header*/
 
 #main-header {
@@ -36,7 +37,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 #header-content > p {
     font-size: 20px;
     font-weight: 100;
@@ -53,10 +53,11 @@ body {
     margin-bottom: 5vh;
 }
 
-#about img{
+#about img {
     width: 100%;
 }
-#about p{
+
+#about p {
     font-size: 1.3vw;
     text-align: right;
 }
@@ -67,7 +68,6 @@ body {
 
 span {
     color: #1ac056;
-
 }
 
 /*Koniec spana*/
@@ -80,7 +80,6 @@ span {
     padding-bottom: 30px;
     text-align: center;
     background-color: #f7f7f7;
-
 }
 
 #skill > h2 {
@@ -93,8 +92,6 @@ span {
     margin-left: 7vw;
     margin-right: 7vw;
 }
-
-
 
 /*Koniec umiejętności*/
 
@@ -128,14 +125,17 @@ span {
     background-image: url("/theConsite.github.io/warsztaty/portfolio/img/img/portfolio4.jpg");
 }
 
-#anim1, #anim2, #anim3{
+#anim1,
+#anim2,
+#anim3 {
     height: 200px;
 }
-.portfoliogal{
+
+.portfoliogal {
     margin-top: 10px;
 }
 
-#skill .col-12{
+#skill .col-12 {
     margin-top: 20px;
 }
 
@@ -275,8 +275,6 @@ textarea {
     font-size: 45px;
 }
 
-
-
 .fa-facebook-f,
 .fa-instagram,
 .fa-youtube {
@@ -306,5 +304,4 @@ footer {
     height: 23px;
     text-align: center;
     font-size: 16px;
-
 }
