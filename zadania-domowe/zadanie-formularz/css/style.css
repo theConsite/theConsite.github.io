@@ -1,0 +1,11 @@
+*{
+    display: block;
+}
+title{
+    display: none;
+}
+
+label[for="zgoda"], #zgoda{
+    display: inline-block;
+    margin-bottom: 10px;
+}
