@@ -1,0 +1,76 @@
+#portfolio {
+    padding-top: 30px;
+    font-size: 0;
+    padding-bottom: 30px;
+}
+
+#portfolio h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/*Galeria portfolio*/
+
+#anim1 {
+    background-image: url("/theConsite.github.io/workshopnumeroduo/portfoliosass/app/img/img/portfolio1.jpg");
+}
+
+#anim2 {
+    background-image: url("/theConsite.github.io/workshopnumeroduo/portfoliosass/app/img/img/portfolio2.jpg");
+}
+
+#anim3 {
+    background-image: url("/theConsite.github.io/workshopnumeroduo/portfoliosass/app/img/img/portfolio4.jpg");
+}
+
+
+#port {
+    margin-left: 12vw;
+}
+
+.hidpad {
+    width: 100%;
+    height: 100%;
+    padding: 1vw;
+    opacity: 0;
+    background-color: rgba(33, 59, 80, 0.8);
+    transition: all 1s ease-in-out;
+}
+
+.hidpad:hover {
+    opacity: 1;
+}
+
+.hid > h4 {
+    font-size: 100%
+}
+
+.anim .hid {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1vw;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2vw;
+    color: $biel;
+    border: 1px solid $biel;
+    border-radius: 10%;
+}
+
+a[href="#"] {
+    color: $biel;
+    transition: all 1s linear;
+}
+
+a[href="#"]:hover {
+    color: $zielony;
+}
+
+.fas {
+    font-size: 4vw;
+    width: 4vw;
+    height: 4vw;
+}

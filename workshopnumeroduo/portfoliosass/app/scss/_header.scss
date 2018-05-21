@@ -1,0 +1,27 @@
+#main-header {
+    width: 100%;
+    height: 500px;
+    background-image: url("/theConsite.github.io/workshopnumeroduo/portfoliosass/app/img/img/header-background.jpg");
+    background-size: cover;
+}
+
+#header-content {
+    color: $biel;
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+
+#header-content h1 {
+    width: 310px;
+    font-size: 50px;
+    font-weight: 100;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#header-content > p {
+    font-size: 20px;
+    font-weight: 100;
+}

@@ -6,12 +6,7 @@
     }
     #about {
         height: 394px;
-        background-color: #f9fcfe;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        -webkit-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+        @include shadow
     }
     #about p {
         font-size: 13px;
@@ -28,12 +23,7 @@
     }
     #skill > div {
         width: 12vw;
-        height: 12vw;
-        display: inline-block;
-        margin-left: 3vw;
-        margin-right: 3vw;
-        margin-top: 20px;
-        text-align: center;
+        @include skilldivspecs;
     }
     .fab {
         width: 45px;
@@ -44,23 +34,15 @@
     }
 
     .anim {
-        display: inline-block;
-        position: relative;
         width: 25vw;
-        height: 25vw;
-        background-size: cover;
+        @include animspecs;
     }
 }
 
 @media (max-width:784px) {
     #about {
         height: 640px;
-        background-color: #f9fcfe;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        -webkit-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 7px 24px 1px rgba(0, 0, 0, 0.75);
+        @include shadow
     }
     #about-content {
         width: 520px;
@@ -81,20 +63,12 @@
     }
     #skill > div {
         width: 42vw;
-        height: 12vw;
-        display: inline-block;
-        margin-left: 3vw;
-        margin-right: 3vw;
-        margin-top: 20px;
-        text-align: center;
+        @include skilldivspecs;
     }
 
     .anim {
-        display: inline-block;
-        position: relative;
         width: 37vw;
-        height: 25vw;
-        background-size: cover;
+        @include animspecs;
     }
     #anim3 {
         display: block;
