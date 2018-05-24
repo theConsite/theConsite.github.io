@@ -2,7 +2,6 @@
     color: white;
     background-color: #213b50;
     width: 100%;
-    height: 400px;
     position: relative;
 }
 
@@ -10,10 +9,8 @@
 
 #adres {
     font-style: normal;
-    position: absolute;
-    top: 20px;
-    left: 15px;
-    width: 45%;
+    position: relative;
+    width: 100%;
     height: 250px;
 }
 
@@ -25,18 +22,23 @@
 
 /*Formularz kontakt*/
 
-#form {
+.formularz {
+    height: 370px;
+    position: relative;
+}
+
+form {
     margin-top: 30px;
     position: absolute;
-    width: 45%;
     height: 350px;
+    right: 0px;
     top: 20px;
-    right: 15px;
+    width: 90%
 }
 
 address a {
     text-decoration: none;
-    color: #1ac056;
+    color: $zielony;
 }
 
 input,
@@ -55,9 +57,9 @@ textarea {
     height: 120px
 }
 
-button {
-    background-color: #1ac056;
-    color: white;
+#formbtn {
+    background-color: $zielony;
+    color: $biel;
     font-size: 30px;
     font-weight: bold;
     width: 150px;
@@ -65,9 +67,11 @@ button {
     border: 4px solid green;
     border-radius: 25px;
     transition: all 2s ease-in-out;
+    position: absolute;
+    right: 0;
 }
 
-button:hover {
+#formbtn:hover {
     border-radius: 0px;
     cursor: pointer;
     background-color: green;
@@ -79,21 +83,17 @@ button:hover {
 /*Ikony*/
 
 #ikony {
-    width: 45%;
-    height: 50px;
     position: relative;
-    top: 290px;
-    left: 15px;
+    top: 20px;
     font-size: 45px;
 }
-
-
 
 .fa-facebook-f,
 .fa-instagram,
 .fa-youtube {
     color: $icon;
     transition: all 1s ease-in-out;
+    margin-left: 20px;
 }
 
 .fa-facebook-f:hover {
@@ -117,5 +117,4 @@ footer {
     height: 23px;
     text-align: center;
     font-size: 16px;
-
 }

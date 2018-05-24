@@ -1,8 +1,9 @@
 #skill {
+    margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 30px;
     text-align: center;
-
+    background-color: $kindawhite;
 }
 
 #skill > h2 {
@@ -14,4 +15,8 @@
 #skill > p {
     margin-left: 7vw;
     margin-right: 7vw;
+}
+
+#skill .col-12 {
+    margin-top: 20px;
 }

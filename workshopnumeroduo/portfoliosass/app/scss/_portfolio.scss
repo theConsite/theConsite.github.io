@@ -26,9 +26,14 @@
     background-image: url("/theConsite.github.io/workshopnumeroduo/portfoliosass/app/img/img/portfolio4.jpg");
 }
 
+#anim1,
+#anim2,
+#anim3 {
+    height: 200px;
+}
 
-#port {
-    margin-left: 12vw;
+#portfoliogal {
+    margin-top: 10px;
 }
 
 .hidpad {
@@ -36,7 +41,7 @@
     height: 100%;
     padding: 1vw;
     opacity: 0;
-    background-color: rgba(33, 59, 80, 0.8);
+    background-color: $mainbluealpha;
     transition: all 1s ease-in-out;
 }
 

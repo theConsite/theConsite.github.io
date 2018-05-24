@@ -6,20 +6,7 @@
         -moz-box-shadow: $shadowsize $shadowcolor;
         box-shadow: $shadowsize $shadowcolor;
 }
-@mixin animspecs{
-    display: inline-block;
-        position: relative;
-        height: 25vw;
-        background-size: cover;
-}
-@mixin skilldivspecs{
-    height: 12vw;
-        display: inline-block;
-        margin-left: 3vw;
-        margin-right: 3vw;
-        margin-top: 20px;
-        text-align: center;
-}
+
 @mixin rotate{
     transform: rotate(30deg);
 }
