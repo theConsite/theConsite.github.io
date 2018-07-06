@@ -1,0 +1,204 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f7f8;
+    overflow-x: hidden;
+    overflow-y: visible;
+    margin: 0;
+}
+
+#header {
+    position: relative;
+    top: 0px;
+    height: 56px;
+    background-color: #275066;
+    color: white;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    background-color: #275066;
+    color: white;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.row > div {
+    margin-top: 20px;
+}
+
+.row > div > div {
+    box-shadow: 5px 5px 2px #ccc9c9;
+}
+
+#profil {
+    padding-top: 10px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.profile-photo {
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../img/avatar-user-boy-389cd1eb1d503149-512x512.png);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line {
+    position: relative;
+    margin: 0 auto;
+    height: 3px;
+    width: 80%;
+    background: linear-gradient(to right, white, #e0e0e0, white);
+    margin-bottom: 25px;
+}
+
+#info {
+    margin: 0 auto;
+    width: 85%;
+}
+
+#info > li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+li > .fas {
+    margin-right: 5px;
+}
+
+#zainteresowania {
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.interests > .int {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #275066;
+    ;
+    color: white;
+    padding: 2px 3px;
+    margin: 2px 1px;
+}
+
+#social {
+    text-align: center;
+    background-color: white;
+}
+
+.socicon {
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: .5s ease-in-out;
+    margin-top: 15px;
+    margin-bottom: 5spx;
+    color: black;
+}
+
+.socicon:hover {
+    color: white;
+    background-color: black;
+    transform: rotate(10deg);
+}
+
+.mid-row > div {
+    background-color: white;
+}
+
+#form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#form > h4 {
+    margin-left: 5%;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 90%;
+    margin-left: 5%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form > button {
+    background-color: #275066;
+    color: white;
+    font-weight: bold;
+    width: 70px;
+    height: 40px;
+    margin-left: 80%;
+    transition: .5s linear;
+    cursor: pointer;
+}
+
+form > button:hover {
+    background-color: #1f4051;
+}
+
+.col-sm-12 > div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post {
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.post > h6 {
+    display: inline-block;
+}
+
+.post > p {
+    position: absolute;
+    display: inline-block;
+    right: 5%;
+}
+
+.postgraphic {
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 150px;
+    border-radius: 2vw;
+    margin-top: 10px;
+}
+
+#post108 {
+    background-image: url(../img/Front-end-developemtn.png);
+}
+
+#suj {
+    background-image: url(../img/fab.jpg);
+}
