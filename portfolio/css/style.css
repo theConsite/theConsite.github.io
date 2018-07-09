@@ -96,11 +96,15 @@ li > .fas {
 .interests > .int {
     display: inline-block;
     font-size: 14px;
-    background-color: #275066;
-    ;
     color: white;
     padding: 2px 3px;
     margin: 2px 1px;
+}
+.inter{
+        background-color: #333;
+}
+.skl{
+      background-color: #275066;  
 }
 
 #social {
@@ -150,18 +154,27 @@ textarea {
     margin-top: 20px;
 }
 
-form > button {
+#przyc{
+    position: relative;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+}
+
+form button {
     background-color: #275066;
     color: white;
     font-weight: bold;
     width: 70px;
     height: 40px;
-    margin-left: 80%;
-    transition: .5s linear;
+    position: absolute;
+    right: 0px;
+    transition: .2s linear;
     cursor: pointer;
+    box-shadow: 2px 3px 3px 0px #275066;
 }
 
-form > button:hover {
+form button:hover {
     background-color: #1f4051;
 }
 

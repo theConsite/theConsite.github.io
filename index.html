@@ -3,24 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Adrian Jobda</title>
+    <link rel="shortcut icon" type="image/x-icon" href="land.png" />
+    <title>Landing Page</title>
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="start.css">
 </head>
 
 <body>
-    <header>
-        <h1>Adrian Jobda</h1>
-        <h2>Junior Front-End Developer</h2>
-    </header>
-    <div class="sites">
-        <div id="frame1" class="frame">
-            <iframe src="/theConsite.github.io/cssgears/index.html" frameborder="0"></iframe>
+    <div id="main">
+        <div id="text">
+            <h1>Adrian Jobda</h1>
+            <p>Front-End Developer</p>
         </div>
-        <div id="frame2" class="frame">
-        <iframe src="/theConsite.github.io/warsztaty/portfolio/" frameborder="0"></iframe>
+        <div id="choose">
+            <p>Wybierz:</p>
+            <div id="slider">
+                <a href="#" class="control_next">&#62&#62</a>
+                <a href="#" class="control_prev">
+                    &#60&#60</a>
+                        <ul>
+                            <li>Portfolio</li>
+                            <li>Inne projekty</li>
+                        </ul>
+            </div>
         </div>
+
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
