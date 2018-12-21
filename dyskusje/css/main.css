@@ -189,12 +189,76 @@ a:active {
 }
 @media (max-width: 640px){
      h1{
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     .d-lg-none{
-        font-size: .8rem;
+        font-size: .8rem
     }
     .list-group-item{
         font-size: 1.7rem;
     }
 }
+#teamCards{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    box-sizing: border-box;
+    
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 5px solid #a34e2d;
+    border-radius: 10px;
+
+}
+.card>.photo{
+    width: 100%;
+    height: 290px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card>.desc{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #BD5D38;
+    color: white;
+}
+#maciek>.photo{background-image: url(../img/maciek.jpg);}
+#marcel>.photo{background-image: url(../img/marcel.jpg);}
+#adrian>.photo{background-image: url(../img/adrian.jpg);}
+#tomek>.photo{background-image: url(../img/tomek.jpg);}
+#radek>.photo{background-image: url(../img/radek.jpg);}
+#klaudia>.photo{background-image: url(../img/klaudia.jpg);}
+
+@media (min-width:900px){
+    #teamCards{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media (min-width:1300px){
+    #teamCards{
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+@media(min-width:992px){
+    #teamCards{
+    width: calc(100vw - 340px);
+    }
+}
+.card>.desc>.imie{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.card>.desc>.rola{}
+.card>.desc>.opis{position: absolute;
+bottom: 10px;
+width: calc(100% - 40px);
+left: 20px;}
