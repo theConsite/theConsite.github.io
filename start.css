@@ -1,79 +1,34 @@
-body{
-    background-color: #283b5e;
-    color: white;
-    overflow: hidden;
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
+#work {
+    width: 33vw;
+    height: 33vh;
+    position: fixed;
+    top: 33.5vh;
+    left: 33.5vw;
+    background-image: url(people.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(100%)
+}
+
+body {
     margin: 0;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: monospace;
+    text-align: center;
 }
-#main{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(architecture-black-and-white-buildings-316902.jpg);
-    background-position: bottom;
-    background-size: cover;
-}
-#text{
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    top: 15vh;
-}
-#text> h1{
-    margin-bottom: 10px;
-}
-#text> p{
-    font-size: 23px;
-    margin-top: 10px;
-}
-#choose{
+
+h1,
+h2 {
     position: fixed;
     width: 100vw;
-    height: 200px;
-    bottom: -1vh;
-}
-#choose> p{
-    font-size: 19px;
-}
-#slider {
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px;
 }
 
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 100px;
-  list-style: none;
+h1 {
+    top: 10vh;
 }
 
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-}
-
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
+h2 {
+    bottom: 10vh;
 }
