@@ -113,9 +113,10 @@ p.lead {
         padding: 0.5rem;
     }
 
-    #sideNav .navbar-brand .img-profile {
+    #sideNav .navbar-brand {
         max-height: 10rem;
     }
+    
 
     #sideNav .navbar-collapse {
         display: -webkit-box;
@@ -195,6 +196,7 @@ a:active {
 
 .list-group-item {
     border: none;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 @media (max-width: 640px) {
@@ -311,3 +313,21 @@ a:active {
     font-size: 20px;
     font-weight: 600;
 }
+#tlo{
+    width: calc(100% + 48px);
+    height: calc(100% + 48px);
+    position: fixed;
+    top:0px;
+    left: 17rem;
+    background-image: url("../img/papier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.3)
+}
+.img-profile{
+    position: relative;
+    width: 240px;
+    height: 240px;
+    top: -80px;
+ }
